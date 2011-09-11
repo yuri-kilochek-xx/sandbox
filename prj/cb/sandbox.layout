@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="debug" />
+	<File name="..\..\def\buffer.def" open="0" top="0" tabpos="0">
+		<Cursor position="205" topLine="0" />
+	</File>
+	<File name="..\..\def\sequence_bidirectional.def" open="0" top="0" tabpos="0">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="..\..\def\sequence_forward.def" open="0" top="0" tabpos="0">
+		<Cursor position="251" topLine="9" />
+	</File>
+	<File name="..\..\def\sequence_random_accessable.def" open="0" top="0" tabpos="0">
+		<Cursor position="3347" topLine="94" />
+	</File>
+	<File name="..\..\hdr\alignment_of.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="138" topLine="0" />
+	</File>
+	<File name="..\..\hdr\array.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="757" topLine="30" />
+	</File>
+	<File name="..\..\hdr\atomic.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="365" topLine="21" />
+	</File>
+	<File name="..\..\hdr\cast.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="107" topLine="0" />
+	</File>
+	<File name="..\..\hdr\char.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="57" topLine="0" />
+	</File>
+	<File name="..\..\hdr\clamp.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="155" topLine="5" />
+	</File>
+	<File name="..\..\hdr\crc.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="147" topLine="30" />
+	</File>
+	<File name="..\..\hdr\del_ref.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="251" topLine="0" />
+	</File>
+	<File name="..\..\hdr\endian.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="10496" topLine="628" />
+	</File>
+	<File name="..\..\hdr\event.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="298" topLine="22" />
+	</File>
+	<File name="..\..\hdr\exception.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="69" topLine="0" />
+	</File>
+	<File name="..\..\hdr\filter.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="4169" topLine="237" />
+	</File>
+	<File name="..\..\hdr\flt.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="59" topLine="80" />
+	</File>
+	<File name="..\..\hdr\flt_n.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="82" topLine="0" />
+	</File>
+	<File name="..\..\hdr\function.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="2834" topLine="160" />
+	</File>
+	<File name="..\..\hdr\graphic.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="220" topLine="1" />
+	</File>
+	<File name="..\..\hdr\if.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="236" topLine="0" />
+	</File>
+	<File name="..\..\hdr\int.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="1008" topLine="0" />
+	</File>
+	<File name="..\..\hdr\int_n.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="997" topLine="70" />
+	</File>
+	<File name="..\..\hdr\iterator.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="58" topLine="0" />
+	</File>
+	<File name="..\..\hdr\lambda.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="568" topLine="60" />
+	</File>
+	<File name="..\..\hdr\list.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="2481" topLine="81" />
+	</File>
+	<File name="..\..\hdr\list.inl" open="0" top="0" tabpos="2">
+		<Cursor position="39" topLine="0" />
+	</File>
+	<File name="..\..\hdr\make.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="210" topLine="0" />
+	</File>
+	<File name="..\..\hdr\math.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="825" topLine="46" />
+	</File>
+	<File name="..\..\hdr\memory.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="310" topLine="0" />
+	</File>
+	<File name="..\..\hdr\meta.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="41" topLine="0" />
+	</File>
+	<File name="..\..\hdr\meta\add.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="55" topLine="0" />
+	</File>
+	<File name="..\..\hdr\meta\and.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="..\..\hdr\meta\bit_and.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="530" topLine="0" />
+	</File>
+	<File name="..\..\hdr\meta\bit_not.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="220" topLine="0" />
+	</File>
+	<File name="..\..\hdr\meta\bit_xor.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="387" topLine="0" />
+	</File>
+	<File name="..\..\hdr\meta\bool.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="191" topLine="0" />
+	</File>
+	<File name="..\..\hdr\meta\if.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="867" topLine="0" />
+	</File>
+	<File name="..\..\hdr\meta\mod.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="242" topLine="0" />
+	</File>
+	<File name="..\..\hdr\meta\mul.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="97" topLine="0" />
+	</File>
+	<File name="..\..\hdr\meta\neg.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="156" topLine="0" />
+	</File>
+	<File name="..\..\hdr\meta\self.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="171" topLine="0" />
+	</File>
+	<File name="..\..\hdr\meta\sub.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="43" topLine="0" />
+	</File>
+	<File name="..\..\hdr\meta\value.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="49" topLine="0" />
+	</File>
+	<File name="..\..\hdr\mutex.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="101" topLine="0" />
+	</File>
+	<File name="..\..\hdr\none.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="102" topLine="0" />
+	</File>
+	<File name="..\..\hdr\number.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="186" topLine="144" />
+	</File>
+	<File name="..\..\hdr\ptr.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="1140" topLine="0" />
+	</File>
+	<File name="..\..\hdr\ptrdiff.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="119" topLine="0" />
+	</File>
+	<File name="..\..\hdr\reverse.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="1025" topLine="57" />
+	</File>
+	<File name="..\..\hdr\same.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="97" topLine="0" />
+	</File>
+	<File name="..\..\hdr\self.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="124" topLine="0" />
+	</File>
+	<File name="..\..\hdr\sequence.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="180" topLine="2" />
+	</File>
+	<File name="..\..\hdr\shlock.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="387" topLine="0" />
+	</File>
+	<File name="..\..\hdr\size.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="94" topLine="0" />
+	</File>
+	<File name="..\..\hdr\sleep.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="79" topLine="0" />
+	</File>
+	<File name="..\..\hdr\small_space.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="206" topLine="186" />
+	</File>
+	<File name="..\..\hdr\space.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="8581" topLine="36" />
+	</File>
+	<File name="..\..\hdr\stack.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="224" topLine="12" />
+	</File>
+	<File name="..\..\hdr\stream.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="1390" topLine="6" />
+	</File>
+	<File name="..\..\hdr\string.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="8322" topLine="352" />
+	</File>
+	<File name="..\..\hdr\swap.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="258" topLine="0" />
+	</File>
+	<File name="..\..\hdr\time.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="838" topLine="0" />
+	</File>
+	<File name="..\..\hdr\timer.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="57" topLine="0" />
+	</File>
+	<File name="..\..\hdr\tuple.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="841" topLine="102" />
+	</File>
+	<File name="..\..\hdr\type_at.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="69" topLine="0" />
+	</File>
+	<File name="..\..\hdr\value_at.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="862" topLine="0" />
+	</File>
+	<File name="..\..\hdr\variant.hpp" open="1" top="0" tabpos="2">
+		<Cursor position="456" topLine="10" />
+	</File>
+	<File name="..\..\hdr\void.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="57" topLine="0" />
+	</File>
+	<File name="..\..\main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="4419" topLine="205" />
+	</File>
+	<File name="..\..\src\atomic.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="65" topLine="0" />
+	</File>
+	<File name="..\..\src\event.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="322" topLine="99" />
+	</File>
+	<File name="..\..\src\memory.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="75" topLine="0" />
+	</File>
+	<File name="..\..\src\mutex.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="2047" topLine="49" />
+	</File>
+	<File name="..\..\src\shlock.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="308" topLine="0" />
+	</File>
+	<File name="..\..\src\sleep.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="270" topLine="0" />
+	</File>
+	<File name="..\..\src\timer.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="956" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

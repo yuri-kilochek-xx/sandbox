@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="sandbox" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="debug">
+				<Option output="bin\debug\sandbox" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="release">
+				<Option output="bin\release\sandbox" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-march=pentium3" />
+			<Add option="-std=c++0x" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="..\..\def\buffer.def" />
+		<Unit filename="..\..\def\sequence_bidirectional.def" />
+		<Unit filename="..\..\def\sequence_forward.def" />
+		<Unit filename="..\..\def\sequence_random_accessable.def" />
+		<Unit filename="..\..\hdr\alignment_of.hpp" />
+		<Unit filename="..\..\hdr\array.hpp" />
+		<Unit filename="..\..\hdr\atomic.hpp" />
+		<Unit filename="..\..\hdr\bool.hpp" />
+		<Unit filename="..\..\hdr\byte.hpp" />
+		<Unit filename="..\..\hdr\cast.hpp" />
+		<Unit filename="..\..\hdr\char.hpp" />
+		<Unit filename="..\..\hdr\clamp.hpp" />
+		<Unit filename="..\..\hdr\crc.hpp" />
+		<Unit filename="..\..\hdr\del_ref.hpp" />
+		<Unit filename="..\..\hdr\endian.hpp" />
+		<Unit filename="..\..\hdr\event.hpp" />
+		<Unit filename="..\..\hdr\exception.hpp" />
+		<Unit filename="..\..\hdr\filter.hpp" />
+		<Unit filename="..\..\hdr\flt.hpp" />
+		<Unit filename="..\..\hdr\flt_n.hpp" />
+		<Unit filename="..\..\hdr\function.hpp" />
+		<Unit filename="..\..\hdr\graphic.hpp" />
+		<Unit filename="..\..\hdr\if.hpp" />
+		<Unit filename="..\..\hdr\int.hpp" />
+		<Unit filename="..\..\hdr\int_n.hpp" />
+		<Unit filename="..\..\hdr\iterator.hpp" />
+		<Unit filename="..\..\hdr\lambda.hpp" />
+		<Unit filename="..\..\hdr\list.hpp" />
+		<Unit filename="..\..\hdr\list.inl" />
+		<Unit filename="..\..\hdr\make.hpp" />
+		<Unit filename="..\..\hdr\math.hpp" />
+		<Unit filename="..\..\hdr\max.hpp" />
+		<Unit filename="..\..\hdr\memory.hpp" />
+		<Unit filename="..\..\hdr\meta.hpp" />
+		<Unit filename="..\..\hdr\meta\add.hpp" />
+		<Unit filename="..\..\hdr\meta\and.hpp" />
+		<Unit filename="..\..\hdr\meta\bit_and.hpp" />
+		<Unit filename="..\..\hdr\meta\bit_ls.hpp" />
+		<Unit filename="..\..\hdr\meta\bit_not.hpp" />
+		<Unit filename="..\..\hdr\meta\bit_or.hpp" />
+		<Unit filename="..\..\hdr\meta\bit_rs.hpp" />
+		<Unit filename="..\..\hdr\meta\bit_xor.hpp" />
+		<Unit filename="..\..\hdr\meta\bool.hpp" />
+		<Unit filename="..\..\hdr\meta\div.hpp" />
+		<Unit filename="..\..\hdr\meta\if.hpp" />
+		<Unit filename="..\..\hdr\meta\mod.hpp" />
+		<Unit filename="..\..\hdr\meta\mul.hpp" />
+		<Unit filename="..\..\hdr\meta\neg.hpp" />
+		<Unit filename="..\..\hdr\meta\not.hpp" />
+		<Unit filename="..\..\hdr\meta\or.hpp" />
+		<Unit filename="..\..\hdr\meta\self.hpp" />
+		<Unit filename="..\..\hdr\meta\sub.hpp" />
+		<Unit filename="..\..\hdr\meta\value.hpp" />
+		<Unit filename="..\..\hdr\min.hpp" />
+		<Unit filename="..\..\hdr\mutex.hpp" />
+		<Unit filename="..\..\hdr\none.hpp" />
+		<Unit filename="..\..\hdr\null.hpp" />
+		<Unit filename="..\..\hdr\number.hpp" />
+		<Unit filename="..\..\hdr\ptr.hpp" />
+		<Unit filename="..\..\hdr\ptrdiff.hpp" />
+		<Unit filename="..\..\hdr\reverse.hpp" />
+		<Unit filename="..\..\hdr\same.hpp" />
+		<Unit filename="..\..\hdr\self.hpp" />
+		<Unit filename="..\..\hdr\sequence.hpp" />
+		<Unit filename="..\..\hdr\shlock.hpp" />
+		<Unit filename="..\..\hdr\size.hpp" />
+		<Unit filename="..\..\hdr\sleep.hpp" />
+		<Unit filename="..\..\hdr\small_space.hpp" />
+		<Unit filename="..\..\hdr\space.hpp" />
+		<Unit filename="..\..\hdr\stack.hpp" />
+		<Unit filename="..\..\hdr\stream.hpp" />
+		<Unit filename="..\..\hdr\string.hpp" />
+		<Unit filename="..\..\hdr\swap.hpp" />
+		<Unit filename="..\..\hdr\time.hpp" />
+		<Unit filename="..\..\hdr\timer.hpp" />
+		<Unit filename="..\..\hdr\tuple.hpp" />
+		<Unit filename="..\..\hdr\type_at.hpp" />
+		<Unit filename="..\..\hdr\value_at.hpp" />
+		<Unit filename="..\..\hdr\variant.hpp" />
+		<Unit filename="..\..\hdr\void.hpp" />
+		<Unit filename="..\..\main.cpp" />
+		<Unit filename="..\..\src\atomic.cpp" />
+		<Unit filename="..\..\src\event.cpp" />
+		<Unit filename="..\..\src\memory.cpp" />
+		<Unit filename="..\..\src\mutex.cpp" />
+		<Unit filename="..\..\src\shlock.cpp" />
+		<Unit filename="..\..\src\sleep.cpp" />
+		<Unit filename="..\..\src\timer.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

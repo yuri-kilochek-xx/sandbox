@@ -1,0 +1,249 @@
+# depslib dependency file v1.0
+1308575372 source:h:\dev\!prj\sandbox\src\mutex.cpp
+	"../hdr/mutex.hpp"
+	"../hdr/platform.hpp"
+
+1308656655 h:\dev\!prj\sandbox\hdr\mutex.hpp
+	"void.hpp"
+	"bool.hpp"
+
+1305530669 h:\dev\!prj\sandbox\hdr\void.hpp
+
+1305530669 h:\dev\!prj\sandbox\hdr\bool.hpp
+
+1307953903 h:\dev\!prj\sandbox\hdr\platform.hpp
+
+1307960906 source:h:\dev\!prj\sandbox\src\sleep.cpp
+	"../hdr/sleep.hpp"
+	"../hdr/platform.hpp"
+
+1308577023 h:\dev\!prj\sandbox\hdr\sleep.hpp
+	"void.hpp"
+
+1308576993 source:h:\dev\!prj\sandbox\main.cpp
+	<iostream>
+	<typeinfo>
+	<type_traits>
+
+1308650616 source:h:\dev\!prj\sandbox\src\condvar.cpp
+	"../hdr/condvar.hpp"
+	"../hdr/platform.hpp"
+
+1308656665 h:\dev\!prj\sandbox\hdr\condvar.hpp
+	"void.hpp"
+	"mutex.hpp"
+
+1309703430 source:x:\dev\!prj\sandbox\src\condvar.cpp
+	"../hdr/condvar.hpp"
+	<pthread.h>
+	<time.h>
+
+1308656665 x:\dev\!prj\sandbox\hdr\condvar.hpp
+	"void.hpp"
+	"mutex.hpp"
+
+1305530669 x:\dev\!prj\sandbox\hdr\void.hpp
+
+1315290647 x:\dev\!prj\sandbox\hdr\mutex.hpp
+	"void.hpp"
+	"bool.hpp"
+	"flt_n.hpp"
+
+1305530669 x:\dev\!prj\sandbox\hdr\bool.hpp
+
+1307953903 x:\dev\!prj\sandbox\hdr\platform.hpp
+
+1311584944 source:x:\dev\!prj\sandbox\src\mutex.cpp
+	"../hdr/mutex.hpp"
+	<windows.h>
+	<pthread.h>
+	<time.h>
+
+1310753224 source:x:\dev\!prj\sandbox\src\sleep.cpp
+	"../hdr/sleep.hpp"
+	<windows.h>
+	<time.h>
+
+1315290652 x:\dev\!prj\sandbox\hdr\sleep.hpp
+	"void.hpp"
+	"flt_n.hpp"
+
+1315294819 source:x:\dev\!prj\sandbox\main.cpp
+	<iostream>
+	<iomanip>
+	<typeinfo>
+	<type_traits>
+
+1312986770 x:\dev\!prj\sandbox\hdr\string.hpp
+	"byte.hpp"
+	"size.hpp"
+	"void.hpp"
+	"int.hpp"
+	"exception.hpp"
+
+1305530669 x:\dev\!prj\sandbox\hdr\byte.hpp
+
+1305530669 x:\dev\!prj\sandbox\hdr\size.hpp
+
+1305530669 x:\dev\!prj\sandbox\hdr\char.hpp
+
+1315289245 x:\dev\!prj\sandbox\hdr\int.hpp
+
+1305530669 x:\dev\!prj\sandbox\hdr\if.hpp
+	"bool.hpp"
+
+1311955615 x:\dev\!prj\sandbox\hdr\iterator.hpp
+
+1311497886 x:\dev\!prj\sandbox\hdr\endian.hpp
+	"int.hpp"
+	"flt.hpp"
+
+1315289462 x:\dev\!prj\sandbox\hdr\flt.hpp
+	"bool.hpp"
+
+1309779002 source:x:\dev\!prj\sandbox\src\endian.cpp
+	"../hdr/endian.hpp"
+
+1310213711 source:x:\dev\!prj\sandbox\src\event.cpp
+
+1310290100 source:x:\dev\!prj\sandbox\src\shlock.cpp
+
+1311086032 x:\dev\!prj\sandbox\hdr\crc32.hpp
+	"int.hpp"
+	"byte.hpp"
+	"size.hpp"
+	"void.hpp"
+
+1311670342 source:x:\dev\!prj\sandbox\src\atomic.cpp
+	"../hdr/atomic.hpp"
+
+1315290351 x:\dev\!prj\sandbox\hdr\atomic.hpp
+	"int_n.hpp"
+	"size.hpp"
+
+1311504201 x:\dev\!prj\sandbox\hdr\swap.hpp
+	"void.hpp"
+	"cast.hpp"
+
+1310654906 x:\dev\!prj\sandbox\hdr\variant.hpp
+	"void.hpp"
+	"bool.hpp"
+	"if.hpp"
+	"same.hpp"
+	"swap.hpp"
+
+1310652705 x:\dev\!prj\sandbox\hdr\same.hpp
+	"bool.hpp"
+
+1311752837 x:\dev\!prj\sandbox\hdr\memory.hpp
+	"size.hpp"
+	"byte.hpp"
+	"void.hpp"
+	"cast.hpp"
+	"self.hpp"
+
+1310744874 x:\dev\!prj\sandbox\hdr\self.hpp
+
+1311752831 source:x:\dev\!prj\sandbox\src\memory.cpp
+	"../hdr/memory.hpp"
+	<stdlib.h>
+
+1311830247 x:\dev\!prj\sandbox\hdr\tuple.hpp
+	"if.hpp"
+	"size.hpp"
+	"swap.hpp"
+	"cast.hpp"
+	"same.hpp"
+	"type_at.hpp"
+
+1308293916 x:\dev\!prj\sandbox\hdr\type_at.hpp
+	"size.hpp"
+
+1311071617 x:\dev\!prj\sandbox\hdr\net.hpp
+	"size.hpp"
+	"byte.hpp"
+	"bool.hpp"
+	"void.hpp"
+	"stream.hpp"
+	"int.hpp"
+
+1310053618 x:\dev\!prj\sandbox\hdr\stream.hpp
+	"size.hpp"
+	"bool.hpp"
+
+1311086930 x:\dev\!prj\sandbox\hdr\crc.hpp
+	"int.hpp"
+	"byte.hpp"
+	"size.hpp"
+
+1311503124 x:\dev\!prj\sandbox\hdr\cast.hpp
+
+1311590724 source:x:\dev\!prj\sandbox\src\clock.cpp
+	"../hdr/clock.hpp"
+	<windows.h>
+	<sys/time.h>
+
+1311584584 x:\dev\!prj\sandbox\hdr\clock.hpp
+	"flt.hpp"
+
+1311592297 source:x:\dev\!prj\sandbox\src\timer.cpp
+	"../hdr/timer.hpp"
+	<windows.h>
+	<sys/time.h>
+
+1315290658 x:\dev\!prj\sandbox\hdr\timer.hpp
+	"flt_n.hpp"
+
+1312008885 x:\dev\!prj\sandbox\hdr\filter.hpp
+	"iterator.hpp"
+	"cast.hpp"
+	"del_ref.hpp"
+
+1311965055 x:\dev\!prj\sandbox\hdr\reverse.hpp
+	"iterator.hpp"
+
+1312008315 x:\dev\!prj\sandbox\hdr\del_ref.hpp
+
+1312188248 x:\dev\!prj\sandbox\hdr\value_at.hpp
+	"size.hpp"
+	"type_at.hpp"
+
+1312188999 x:\dev\!prj\sandbox\hdr\lambda.hpp
+	"value_at.hpp"
+	"type_at.hpp"
+	"size.hpp"
+
+1314528053 x:\dev\!prj\sandbox\hdr\none.hpp
+
+1312970630 x:\dev\!prj\sandbox\hdr\exception.hpp
+
+1314535332 x:\dev\!prj\sandbox\hdr\list.hpp
+	"none.hpp"
+	"void.hpp"
+	"iterator.hpp"
+	"sequence.hpp"
+	"list.inl"
+
+1314531089 x:\dev\!prj\sandbox\hdr\sequence.hpp
+	"meta.hpp"
+
+1314536576 x:\dev\!prj\sandbox\hdr\meta.hpp
+	"bool.hpp"
+
+1314531378 x:\dev\!prj\sandbox\hdr\list.inl
+
+1315131073 x:\dev\!prj\sandbox\hdr\meta\and.hpp
+
+1315130580 x:\dev\!prj\sandbox\hdr\meta\value.hpp
+
+1314785576 x:\dev\!prj\sandbox\hdr\meta\type.hpp
+
+1315289238 x:\dev\!prj\sandbox\hdr\int_n.hpp
+	"int.hpp"
+	"size.hpp"
+	"if.hpp"
+
+1315289360 x:\dev\!prj\sandbox\hdr\flt_n.hpp
+	"flt.hpp"
+	"if.hpp"
+
